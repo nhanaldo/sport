@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.main {color: #fff;
+    background-color: #3b3b3b;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.1px solid #000;
+}
+.main .box1 img{
+    width: 100px;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ .demo li{
+    list-style: none;
+    padding: 20px 30px;
+}
+.box2 .demo a{
+    text-decoration: none;
+}
+.demo{
+    display: flex;
+    padding: 5px 30px;
+}
+.demo li:hover{
+    background-color: #d68181;
+    border-radius: 5px;
+}
+.hotline{
+    display: flex;
+    align-items: center;
+}
+
+/* head 2 */
+
+.one1, .one2, .one3{
+    
+    display: none;
+    /* background-color: green; */
+    position: absolute;
+}
+.one1 li, .one2 li, .one3 li{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.item:hover .one1,
+.item2:hover .one2,
+.item3:hover .one3{
+    display: block;
+    
+}
+
+.nav{
+    display: flex;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+.item, .item2, .item3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 86px;
+    position: relative;
+}
+.nav li{
+    padding: 5px 20px;
+}
+li{
+    color: black;
+    list-style: none;
+}
+.one3>li{
+    padding-right: 34px;
+}
+.one2>li{
+    padding-right: 40px;
+}
+.one1 li:hover, .one2 li:hover, .one3 li:hover{
+    background-color: #ccc;
+
+}
+.nav a:hover{
+    color: #000;
+}
+.icon{
+    font-size: 12px
+}
+
+.main2{
+    color: #fff;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #3b3b3b;
+    margin-top: -57px;
+    border-bottom: 1px solid black;
+}
+.sport img{
+    border-radius: 15px ;
+    width: 90%;
+    height: 200px;
+}
+.conmen{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.demo1, .demo2, .demo3, .demo4{
+    text-align: center;
+}
+.main3{
+    color: #fff;
+    margin-top: 125px;
+}
+.red{
+    color: red;
+}
+
+.main4{
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+}
+.main5{
+    color: #fff;
+    display: flex;
+    margin-top: 40px;
+}
+.main6{
+    color: #fff;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    margin-top: 40px;
+
+}
+.main7{
+    color: #fff;
+    display: flex;
+    width: 100%;
+}
+.end1, .end2, .end4{
+    width: 33.33333333%;
+    padding: 50px 90px;
+    margin-left: 80px;
+}
+.main7 ul li{
+    padding: 5px;
+}
+.main7 ul{
+    padding: 20px 0;
+}
+.main7 ul li a{
+    color: rgb(160, 159, 159);
+}
